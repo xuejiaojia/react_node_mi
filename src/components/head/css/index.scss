@@ -1,0 +1,36 @@
+.index_top{
+  height: 0.9rem;
+  display: flex;
+  position: sticky;/*新属性 不超过屏幕 top left 无效，超出则fixed left top生效*/
+  top: 0;
+  left: 0;
+  align-items:center;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  .logo{
+    width: 0.52rem;
+    height: 0.32rem;
+  }
+  .search{
+    height: 0.68rem;
+    width: 5.4rem;
+    line-height: 0.6rem;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    i{
+      margin: 0 0.2rem;
+    }
+    span{
+      font-size: 0.3rem;
+    }
+  }
+  .login{
+    width: 0.45rem;
+    height: 0.45rem;
+  }
+  .login:before{
+    font-size: 0.45rem;
+  }
+
+}

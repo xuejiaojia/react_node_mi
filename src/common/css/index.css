@@ -1,0 +1,34 @@
+/*常用,rem适配 根据html文字大小fontsize 计算*/
+/*
+设计图 750px
+    把设计图分成7.5等分 每一分100px
+    把100px 作为一个换算单位
+100vw
+    屏幕大小分成7.5 等分
+    每一等分 100vw/7.5 =13.3333vw   针对屏幕宽度计算
+*/
+html{
+    font-size: 13.3333vw;
+    color: #333;
+}
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;  /*元素内边距边框在元素内绘制 */
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+li{
+    list-style: none;
+}
+.App{
+    height: 1700px;
+}
+.active{
+    color: #f56d02;
+}

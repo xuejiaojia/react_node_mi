@@ -1,0 +1,19 @@
+.recommend{
+  height: 5.62rem;
+  background-color: #f5f5f5;
+  padding: 0.17rem 0;
+  display: flex;
+  justify-content: space-between;
+  a{
+    width: 3.7rem;
+    img{
+      width: 100%;
+    }
+  }
+  .left{
+    width: 3.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

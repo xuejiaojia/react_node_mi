@@ -1,0 +1,25 @@
+.bar{
+  //border-top: 1px solid #ececec;
+ // position: sticky;
+ // bottom: 110px;  /*1.1rem不生效*/
+ // left: 0;
+  background-color: #fff;
+  .content{
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+      padding: 0.14rem 0;
+      p{
+        font-size: 0.28rem;
+        color: #999;
+      }
+    }
+    a:before{
+      font-size: 0.6rem;
+    }
+  }
+
+
+}
